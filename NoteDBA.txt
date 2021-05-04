@@ -1,0 +1,9 @@
+Chap2: Composants d'un Serveur de BD Oracle
+2 parties:                    
+-Parties logique = Instance = -SGA, PGA
+-Partie Physique = Base de données = Fichiers-> -Fichiers de données(.DBF), -Fichiers de controle(.CTL), Fichiers de journalisation(.LOG)
+
+Les fichier DBF contient les structures et les données
+Les fichier log ne contient que les données
+Les processus d'arrière plan constitue l'instance
+Le processus utilisataire recupère les information de l'utilisateure: userName, pwd, requet etc ... 
